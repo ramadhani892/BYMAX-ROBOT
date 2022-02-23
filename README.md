@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/5a180a318e09d49295c8e.jpg">
+  <img src="https://telegra.ph/file/d53e488a9be119e19cd69.jpg">
 </p>
 
 <h4><p align="center"> BAYMAXX ROBOT </p></h4>
