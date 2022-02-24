@@ -37,8 +37,8 @@ def afk(update: Update, context: CallbackContext):
     notice = ""
     if len(args) >= 2:
         reason = args[1]
-        if len(reason) > 100:
-            reason = reason[:100]
+        if len(reason) > 200:
+            reason = reason[:200]
             notice = "\nYour afk reason was shortened to 100 characters."
     else:
         reason = ""
@@ -46,7 +46,7 @@ def afk(update: Update, context: CallbackContext):
     sql.set_afk(update.effective_user.id, reason)
     fname = update.effective_user.first_name
     try:
-        update.effective_message.reply_text("{} is now away!{}".format(fname, notice))
+        update.effective_message.reply_text("{} Telah Dimakan Janda🤪!{}".format(fname, notice))
     except BadRequest:
         pass
 
@@ -65,14 +65,15 @@ def no_longer_afk(update: Update, context: CallbackContext):
         firstname = update.effective_user.first_name
         try:
             options = [
-                "{} is here!",
-                "{} is back!",
-                "{} is now in the chat!",
-                "{} is awake!",
-                "{} is back online!",
-                "{} is finally here!",
-                "Welcome back! {}",
-                "Where is {}?\nIn the chat!",
+                "{} Anak yatim Pulang Santunan😁!",
+                "{} Abis jadi badut ya?🤪",
+                "{} Pasti abis main sama kaum gay😆!",
+                "{} Ngentot Bolak balik mulu!😭",
+                "{} Kembali Hidup Dari kematian!😏",
+                "{} Abis war yaa?😋",
+                "Selamat datang kembali {}🤗",
+                "Darimana{}?\nHuft,akhirnya kembali!☺️",
+                "Abis Ikut"an Anak Aliansi Tai anjing kah {}?🤭",
             ]
             chosen_option = random.choice(options)
             update.effective_message.reply_text(chosen_option.format(firstname))
@@ -135,10 +136,10 @@ def check_afk(update, context, user_id, fst_name, userc_id):
         if int(userc_id) == int(user_id):
             return
         if not user.reason:
-            res = "{} is afk".format(fst_name)
+            res = "{} Telah AFK!".format(fst_name)
             update.effective_message.reply_text(res)
         else:
-            res = "{} is afk.\nReason: <code>{}</code>".format(
+            res = "{} Telah AFK!.\nReason: <code>{}</code>".format(
                 html.escape(fst_name), html.escape(user.reason)
             )
             update.effective_message.reply_text(res, parse_mode="html")
