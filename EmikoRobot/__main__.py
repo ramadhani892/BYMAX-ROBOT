@@ -85,8 +85,8 @@ PM_START_TEXT = """
 *Hello {} !*
 ✪ Saya Adalah Bot Untuk Memanagement Group Anda [✨](https://telegra.ph/file/d53e488a9be119e19cd69.jpg)
 ────────────────────────
-× *Uptime:* `{}`
-× `{}` *users, across* `{}` *chats.*
+• Bot manage Buatan [RAM-UBOT](https://t.me/RAM_UBOT)
+• Support [RAM SUPPORT GROUP](https://t.me/Ramsupportt)
 ────────────────────────
 ✪ Tekan /help Untuk Melihat Semua Command Saya.
 """
@@ -382,7 +382,7 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="Credits", callback_data="emiko_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Source Code", url="https://xnxx.com"),
+                    InlineKeyboardButton(text="Source Code", url="https://t.me/ramsupportt"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_back"),
@@ -436,13 +436,13 @@ def emiko_about_callback(update, context):
     elif query.data == "emiko_support":
         query.message.edit_text(
             text="*๏ Bymaxx support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on Emiko.",
+            "\nJoin My Support Group for see or report a problem on Emiko.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/emikosupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/KennedyProject"),
+                    InlineKeyboardButton(text="Support", url="t.me/geezsupport"),
+                    InlineKeyboardButton(text="Updates", url="t.me/ramsupportt"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
@@ -461,11 +461,11 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="sena-ex", url="https://github.com/kennedy-ex"),
-                    InlineKeyboardButton(text="TheHamkerCat", url="https://github.com/TheHamkerCat"),
+                    InlineKeyboardButton(text="RAMA", url="https://github.com/ramadhani892"),
+                    InlineKeyboardButton(text="VICKY", url="https://github.com/vckyou"),
                  ],
                  [
-                    InlineKeyboardButton(text="Feri", url="https://github.com/FeriEXP"),
+                    InlineKeyboardButton(text="risman", url="https://github.com/mrismanaziz"),
                     InlineKeyboardButton(text="riz-ex", url="https://github.com/riz-ex"),
                  ],
                  [
