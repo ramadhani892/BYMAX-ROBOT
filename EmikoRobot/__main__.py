@@ -87,6 +87,7 @@ PM_START_TEXT = """
 ────────────────────────
 • Bot manage Buatan [RAM-UBOT](https://t.me/RAM_UBOT)
 • Support [RAM SUPPORT GROUP](https://t.me/Ramsupportt)
+• Ketik /repo Untuk Mengetahui Github Saya.
 ────────────────────────
 ✪ Tekan /help Untuk Melihat Semua Command Saya.
 """
