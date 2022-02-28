@@ -382,7 +382,7 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="Credits", callback_data="emiko_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Source Code", url="https://t.me/ramsupportt"),
+                    InlineKeyboardButton(text="Donasi", url="https://t.me/userbotch/9"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_back"),
@@ -463,24 +463,8 @@ def emiko_about_callback(update, context):
                  [
                     InlineKeyboardButton(text="RAMA", url="https://github.com/ramadhani892"),
                     InlineKeyboardButton(text="VICKY", url="https://github.com/vckyou"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="risman", url="https://github.com/mrismanaziz"),
-                    InlineKeyboardButton(text="riz-ex", url="https://github.com/riz-ex"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="Anime Kaizoku", url="https://github.com/animekaizoku"),
-                    InlineKeyboardButton(text="TheGhost Hunter", url="https://github.com/HuntingBots"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="Inuka Asith", url="https://github.com/inukaasith"),
-                    InlineKeyboardButton(text="Noob-Kittu", url="https://github.com/noob-kittu"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="Queen Arzoo", url="https://github.com/QueenArzoo"),
-                    InlineKeyboardButton(text="Paul Larsen", url="https://github.com/PaulSonOfLars"),
-                 ],
-                 [
+                ],
+                [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
                  ]
                 ]
